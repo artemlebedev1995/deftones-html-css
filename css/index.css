@@ -5,6 +5,7 @@
 }
 
 body {
+	
      max-width: 980px;
      margin: auto;
 }
@@ -28,4 +29,62 @@ header nav ul li {
 header h1 {
     display: flex;
     flex:1;
+}
+section {
+	width: 980px;
+}
+
+img {
+	display: block;
+
+}
+
+section {
+	width: 980px;
+	
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+@keyframes images {
+	0% {
+		margin-left: 45%;
+	}
+	100% {
+		margin-left: 0%;	
+	}
+}
+
+
+@keyframes gomusic {
+	0% {
+		opacity: 0;
+		left: 300px;
+	}
+	50% {
+		opacity: 0;
+		left: 400px;
+	}
+	75% {
+		opacity: 0.2;
+		left: 500px;
+	}
+	100% {
+		opacity: 1;
+		left: 600px;
+	}
+}
+
+.music {
+	position: relative;
+	float: top;
+	left: 300px;
+	margin-top: -500px;
+	margin-bottom: 20px;
+	opacity: 0; 
+	display: none;
+	width: 200px;
 }
