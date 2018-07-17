@@ -31,6 +31,19 @@ header h1 {
     flex:1;
 }
 
+.adrenalineClick:hover,  
+.arroundthefurClick:hover,
+.whiteponyClick:hover,
+.deftonesClick:hover,
+.saturdayClick:hover,
+.diamondClick:hover,
+.koiClick:hover,
+.goreClick:hover
+{
+		cursor: pointer;
+}
+
+
 section {
 	width: 980px;
 	
@@ -80,5 +93,6 @@ img {
 	display: none;
 	width: 200px;
 }
+
 
 
